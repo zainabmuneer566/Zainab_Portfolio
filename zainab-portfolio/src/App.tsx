@@ -48,7 +48,7 @@ export default function App(){
       <div className="scroll" aria-hidden="true">SCROLL ↓</div>
     </section>
     <section id="about"><div className="split">
-      <div className="portrait rv"><div className="ring" aria-hidden="true"/><div className="frame"><img src="/portrait.png" width={400} height={400} loading="lazy" alt="Black-and-white illustration of a woman in a hijab with sunglasses on her head, hiding a smile behind her sleeve"/></div><span className="tag">Rawalpindi, PK</span></div>
+      <div className="portrait rv"><div className="ring" aria-hidden="true"/><div className="frame"><img src="portrait.png" width={400} height={400} loading="lazy" alt="Black-and-white illustration of a woman in a hijab with sunglasses on her head, hiding a smile behind her sleeve"/></div><span className="tag">Rawalpindi, PK</span></div>
       <div><div className="label rv">About</div>
         <h2 className="big rv" style={{marginBottom:'2rem'}}>Curious mind. Builder by nature.</h2>
         <p className="rv">I’m a mobile and web developer in Rawalpindi, currently <strong>interning in iOS &amp; Android app development</strong> at NAVTTC NASTP.</p>
