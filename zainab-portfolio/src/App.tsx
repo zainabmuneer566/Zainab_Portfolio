@@ -53,7 +53,7 @@ export default function App(){
         <h2 className="big rv" style={{marginBottom:'2rem'}}>Curious mind. Builder by nature.</h2>
         <p className="rv">I’m a mobile and web developer in Rawalpindi, currently <strong>interning in iOS &amp; Android app development</strong> at NAVTTC NASTP.</p>
         <p className="rv">My background is a <strong>BSCS (Bachelor of Science in Computer Science)</strong> from Rawalpindi Women University (2020–2024). I’ve completed 15 IBM/Coursera certifications across mobile, front-end and software engineering, and I’m aiming for a developer role where I can build polished mobile and web products.</p>
-        <p className="rv"><em>[Editable: add a sentence about your problem-solving approach.]</em></p></div></div></section>
+        <p className="rv"><em>   I break a problem into small, testable steps, debug methodically, and refine the solution until it is clean, reliable, and easy for others to understand.</em></p></div></div></section>
     <section id="skills"><div className="label rv">Skills</div><h2 className="big rv">What I work with</h2>
       <div className="grid">{skills.map(s=><div className="card rv" key={s.title}><h3>{s.title}</h3><ul>{s.items.map(i=><li key={i}>{i}</li>)}</ul></div>)}</div></section>
     <section id="work"><div className="head"><div className="label">Featured work</div><h2 className="big">Selected projects</h2>
